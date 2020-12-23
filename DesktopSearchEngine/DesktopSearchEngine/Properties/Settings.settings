@@ -1,0 +1,21 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DesktopSearchEngine.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DefaultSearch" Type="System.String" Scope="User">
+      <Value Profile="(Default)">google</Value>
+    </Setting>
+    <Setting Name="dsgoogle" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://google.com/search?q=</Value>
+    </Setting>
+    <Setting Name="dsduckduckgo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://duckduckgo.com/?q=</Value>
+    </Setting>
+    <Setting Name="dsbing" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://www.bing.com/search?q=</Value>
+    </Setting>
+    <Setting Name="dsyahoo" Type="System.String" Scope="User">
+      <Value Profile="(Default)">https://search.yahoo.com/search?p=</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
