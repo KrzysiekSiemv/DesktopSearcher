@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DesktopSearchEngine"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="#00000000" ShowInTaskbar="False">
+        Title="Wyszukiwarka" Height="450" Width="800" WindowState="Maximized" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="#00000000" ShowInTaskbar="False">
     <Window.Resources>
         <ControlTemplate x:Key="textBox" TargetType="{x:Type TextBox}">
             <Border Background="{TemplateBinding Background}" x:Name="Bd" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="8">
@@ -14,11 +14,24 @@
         </ControlTemplate>
     </Window.Resources>
     <Grid>
-        <TextBox Template="{StaticResource textBox}" Name="textBox1" HorizontalAlignment="Center" Height="56" Margin="0,-200,0,0" TextWrapping="Wrap" Text="Szukaj..." VerticalAlignment="Center" Width="600" VerticalContentAlignment="Center" Background="#BFF0F0F0" Padding="16,0,0,0" FontFamily="Nirmala UI" FontSize="20" TextChanged="TextBox_TextChanged" KeyUp="TextBox_KeyUp">
+        <TextBox Template="{StaticResource textBox}" Name="textBox1" HorizontalAlignment="Center" Height="56" Margin="0,-200,0,0" TextWrapping="Wrap" Text="Szukaj..." VerticalAlignment="Center" Width="600" VerticalContentAlignment="Center" Background="#BFF0F0F0" Padding="16,0,0,0" FontFamily="Nirmala UI" FontSize="20" KeyUp="TextBox_KeyUp">
             <TextBox.Effect>
                 <DropShadowEffect ShadowDepth="1" Color="Black" Opacity="0.6" RenderingBias="Performance"/>
             </TextBox.Effect>
+            <TextBox.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Wybierz domyślną przeglądarkę" IsEnabled="False"/>
+                    <MenuItem Header="Google" IsChecked="False" IsCheckable="True" Checked="checkedGoogle" Name="google" />
+                    <MenuItem Header="DuckDuckGo" IsChecked="False" IsCheckable="True" Checked="checkedDuckDuckGo" Name="duckduckgo"/>
+                    <MenuItem Header="Bing" IsChecked="False" IsCheckable="True" Checked="checkedBing" Name="bing"/>
+                    <MenuItem Header="Yahoo!" IsChecked="False" IsCheckable="True" Checked="checkedYahoo" Name="yahoo"/>
+                    <Separator />
+                    <MenuItem Header="Dodaj do autostartu" Click="addToAutostart" Name="addAutostart"/>
+                    <MenuItem Header="Zamknij" Click="closeIt" />
+                    <Separator />
+                    <MenuItem Header="Stworzone przez KrzysiekSiemv" Click="MenuItem_Click"/>
+                </ContextMenu>
+            </TextBox.ContextMenu>
         </TextBox>
-
     </Grid>
 </Window>

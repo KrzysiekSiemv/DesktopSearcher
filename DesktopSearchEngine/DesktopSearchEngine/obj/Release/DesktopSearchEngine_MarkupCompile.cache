@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\Krzysiek\Documents\GitHub\DesktopSearcher\DesktopSearchEngine\DesktopSearchEngine\obj\Debug\
+C:\Users\Krzysiek\Documents\GitHub\DesktopSearcher\DesktopSearchEngine\DesktopSearchEngine\obj\Release\
 DesktopSearchEngine
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Krzysiek\Documents\GitHub\DesktopSearcher\DesktopSearchEngine\DesktopSearchEngine\App.xaml
 21995234448
 
-71472440648
-17-927394347
+6920054451
+171418542459
 MainWindow.xaml;search.xaml;
 
 False

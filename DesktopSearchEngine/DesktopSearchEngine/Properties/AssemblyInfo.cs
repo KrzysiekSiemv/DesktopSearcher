@@ -7,12 +7,12 @@ using System.Windows;
 // Ogólne informacje o zestawie są kontrolowane poprzez następujący 
 // zestaw atrybutów. Zmień wartości tych atrybutów, aby zmodyfikować informacje
 // powiązane z zestawem.
-[assembly: AssemblyTitle("DesktopSearchEngine")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("DesktopSearcher")]
+[assembly: AssemblyDescription("Wyszukiwarka internetowa na pulpit.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Krzysztof 'KrzysiekSiemv' Smaga")]
 [assembly: AssemblyProduct("DesktopSearchEngine")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCopyright("Copyright © Krzysztof Smaga 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

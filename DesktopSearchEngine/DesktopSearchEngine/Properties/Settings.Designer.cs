@@ -25,61 +25,13 @@ namespace DesktopSearchEngine.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("google")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Google")]
         public string DefaultSearch {
             get {
                 return ((string)(this["DefaultSearch"]));
             }
             set {
                 this["DefaultSearch"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://google.com/search?q=")]
-        public string dsgoogle {
-            get {
-                return ((string)(this["dsgoogle"]));
-            }
-            set {
-                this["dsgoogle"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://duckduckgo.com/?q=")]
-        public string dsduckduckgo {
-            get {
-                return ((string)(this["dsduckduckgo"]));
-            }
-            set {
-                this["dsduckduckgo"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://www.bing.com/search?q=")]
-        public string dsbing {
-            get {
-                return ((string)(this["dsbing"]));
-            }
-            set {
-                this["dsbing"] = value;
-            }
-        }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://search.yahoo.com/search?p=")]
-        public string dsyahoo {
-            get {
-                return ((string)(this["dsyahoo"]));
-            }
-            set {
-                this["dsyahoo"] = value;
             }
         }
     }
